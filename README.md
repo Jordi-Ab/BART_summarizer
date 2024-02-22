@@ -15,9 +15,9 @@ The lightweight BART model weights only 1.5GB while Stable Beluga weights 13GB.
 
 Notebooks description:
 
-`0-make_stable_beluga_summaries.ipynb` -> Feed the articles to the LLM in order to get the summary teacher observations.
-`1-make_dateset.ipynb` -> Preprocess the summaries in order to make sure that input text and summary doesn't exceed 1024 tokens.
-`2-fine_tune_BART.ipynb` -> Perform the BERT fine tuning task
-`3-evaluate.ipynb` -> Evaluate the results of the fine tunned model
+- `0-make_stable_beluga_summaries.ipynb` -> Feed the articles to the LLM in order to get the summary teacher observations.
+- `1-make_dateset.ipynb` -> Preprocess the summaries in order to make sure that input text and summary doesn't exceed 1024 tokens.
+- `2-fine_tune_BART.ipynb` -> Perform the BART fine tuning task
+- `3-evaluate.ipynb` -> Evaluate the results of the fine tunned model
 
 As next steps we could create a pure Spanish summarizer model by leveraging multilingual LLMs and Spanish BART versions in order to avoid loosing context of the article with translation.
