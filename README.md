@@ -21,3 +21,5 @@ Notebooks description:
 - `3-evaluate.ipynb` -> Evaluate the results of the fine tunned model
 
 As next steps we could create a pure Spanish summarizer model by leveraging multilingual LLMs and Spanish BART versions in order to avoid loosing context of the article with translation.
+
+**Note:** DataSets and the resulting fine tuned model are not uploaded to Github due to size constraints.
