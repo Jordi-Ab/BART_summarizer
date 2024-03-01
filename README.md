@@ -23,3 +23,14 @@ Notebooks description:
 As next steps we could create a pure Spanish summarizer model by leveraging multilingual LLMs and Spanish BART versions in order to avoid loosing context of the article with translation.
 
 **Note:** DataSets and the resulting fine tuned model are not uploaded to Github due to size constraints.
+
+Model can be downloaded from hugging face with:
+
+```
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+tokenizer = AutoTokenizer.from_pretrained("JordiAb/BART_news_summarizer")
+model = AutoModelForSeq2SeqLM.from_pretrained("JordiAb/BART_news_summarizer")
+```
+
+https://huggingface.co/JordiAb/BART_news_summarizer
